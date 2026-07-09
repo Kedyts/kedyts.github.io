@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KEDYTS</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
+}
+
+body{
+background:#000;
+color:#fff;
+overflow-x:hidden;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+h1{
+font-size:4rem;
+letter-spacing:8px;
+margin-bottom:15px;
+animation:fadeDown 1.2s ease;
+}
+
+p{
+font-size:1.2rem;
+color:#bfbfbf;
+margin-bottom:35px;
+animation:fadeUp 1.5s ease;
+}
+
+button{
+padding:15px 35px;
+font-size:1rem;
+border:1px solid white;
+background:white;
+color:black;
+border-radius:50px;
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+background:black;
+color:white;
+}
+
+.about{
+padding:120px 20px;
+max-width:900px;
+margin:auto;
+text-align:center;
+}
+
+.about h2{
+font-size:2.5rem;
+margin-bottom:20px;
+}
+
+.about p{
+line-height:1.8;
+}
+
+footer{
+padding:40px;
+text-align:center;
+color:gray;
+}
+
+@keyframes fadeDown{
+from{
+opacity:0;
+transform:translateY(-40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+<h1>KEDYTS</h1>
+<p>Ideas Over Hours.</p>
+
+<button onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">
+Explore
+</button>
+
+</section>
+
+<section class="about" id="about">
+
+<h2>Creative Editor</h2>
+
+<p>
+I turn ideas into edits that people remember.
+Every project begins with a concept, not just an effect.
+Creativity over complexity.
+</p>
+
+</section>
+
+<footer>
+
+© 2026 KEDYTS
+
+</footer>
+
+</body>
+</html>
