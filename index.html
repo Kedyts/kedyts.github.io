@@ -1,183 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="google-site-verification" content="mflHBTk7GklPVRUYYiRpHh_bDMVmyE8utlD1--1Ytkk" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KEDYTS</title>
+
+    <title>KEDYTS | Creative Editor</title>
+
+    <meta name="description" content="Official portfolio of KEDYTS - Kenyan creative editor with 200K+ followers and 90M+ views.">
+
+    <meta name="google-site-verification" content="mflHBTk7GklPVRUYYiRpHh_bDMVmyE8utlD1--1Ytkk">
+
+    <link rel="icon" href="images/profile.jpg">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     <link rel="stylesheet" href="style.css">
-</head><link rel="icon" type="image/png" href="images/profile.jpg">
+</head>
 
 <body>
+
 <div id="loader">
-    <h1>KEDYTS</h1>
-    <p>Ideas Over Hours.</p>
+    <div class="loader-content">
+        <h1>KEDYTS</h1>
+        <span></span>
+        <p>Ideas Over Hours.</p>
+    </div>
 </div>
-<nav>
-    <h2>KEDYTS</h2>
+
+<div id="progress-bar"></div>
+
+<nav class="navbar">
+
+    <div class="logo">
+        KEDYTS
+    </div>
 
     <ul>
+
         <li><a href="#hero">Home</a></li>
+
         <li><a href="#about">About</a></li>
+
         <li><a href="#edits">Edits</a></li>
+
         <li><a href="#socials">Socials</a></li>
+
     </ul>
+
 </nav>
 
-<section id="hero" class="hero fade">
+<section id="hero">
 
     <div class="hero-content">
 
         <div class="hero-text">
 
+            <span class="hero-label">
+                KENYAN CREATIVE EDITOR
+            </span>
+
             <h1>KEDYTS</h1>
 
             <p class="hero-subtitle">
-                Creative Editor • 200K+ Followers • 90M+ Views
+                200K+ Followers • 90M+ Views • 500+ Creative Edits
             </p>
 
-            <p class="hero-tagline">
+            <h2>
                 Ideas Over Hours.
+            </h2>
+
+            <p>
+                Every edit begins with an idea. I create short-form content
+                designed to leave an impression—not just chase trends.
             </p>
 
             <div class="hero-buttons">
-                <a href="#edits" class="btn">View My Work</a>
 
-                <a href="https://vt.tiktok.com/ZSX1DEQaK/" target="_blank" class="btn secondary">
-                    Follow Me
+                <a href="#edits" class="btn primary">
+                    View My Work
                 </a>
+
+                <a href="https://www.tiktok.com/@kedyts"
+                   target="_blank"
+                   class="btn secondary">
+
+                    <i class="fa-brands fa-tiktok"></i>
+                    Follow
+
+                </a>
+
             </div>
 
         </div>
 
         <div class="hero-phone">
 
-    <a href="https://vt.tiktok.com/ZSX1SpQ3f/" target="_blank">
+            <div class="phone-glow"></div>
 
-        <video autoplay muted loop playsinline class="hero-video">
-            <source src="videos/hero.mp4" type="video/mp4">
-        </video>
+            <a href="https://www.tiktok.com/@kedyts" target="_blank">
 
-    </a>
+                <video autoplay muted loop playsinline class="hero-video">
 
-</div>
+                    <source src="videos/hero.mp4" type="video/mp4">
+
+                </video>
+
+            </a>
+
+        </div>
 
     </div>
 
 </section>
+<section id="about">
 
-    <h1>KEDYTS</h1>
+    <div class="container">
 
-    <p class="hero-subtitle">
-        Creative Editor • 200K+ Followers • 90M+ Views
-    </p>
+        <div class="profile-card">
 
-    <p class="hero-tagline">
-        Ideas Over Hours.
-    </p>
+            <img src="images/profile.jpg" alt="KEDYTS" class="profile-image">
 
-    <div class="hero-buttons">
-        <a href="#edits" class="btn">View My Work</a>
+            <div class="profile-info">
 
-        <a href="https://vt.tiktok.com/ZSX1DEQaK/" target="_blank" class="btn secondary">
-            Follow Me
-        </a>
-    </div>
+                <span class="section-label">ABOUT</span>
 
-</section>
+                <h2>KEDYTS</h2>
 
-<section id="profile" class="fade">
+                <p class="about-text">
+                    Kenyan creative editor creating concept-driven short-form content.
+                    Every edit begins with an idea because memorable content is built
+                    through creativity, precision and storytelling—not just effects.
+                </p>
 
-    <img src="images/profile.jpg" alt="KEDYTS" class="profile-pic">
+            </div>
 
-    <h2>KEDYTS</h2>
-
-    <p>@kedyts</p>
-
-    <p>
-    Kenyan creative editor turning ideas into viral visuals.
-    Every edit starts with a concept—not just an effect.
-</p>
-
-</section>
-<section id="about" class="fade">
-
-    <h2>About KEDYTS</h2>
-
-    <p>
-        KEDYTS is a Kenyan creative editor focused on concept-driven short-form content.
-        Every edit begins with an idea because creativity is what people remember.
-    </p>
-
-    <div class="stats">
-
-        <div class="stat">
-            <h3>200K+</h3>
-            <p>TikTok Followers</p>
         </div>
 
-        <div class="stat">
-            <h3>90M+</h3>
-            <p>Total Views</p>
-        </div>
+        <div class="stats">
 
-        <div class="stat">
-            <h3>500+</h3>
-            <p>Creative Edits</p>
+            <div class="stat-card">
+
+                <h3 class="counter" data-target="200">200K+</h3>
+
+                <p>TikTok Followers</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3 class="counter" data-target="90">90M+</h3>
+
+                <p>Total Views</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3 class="counter" data-target="500">500+</h3>
+
+                <p>Creative Edits</p>
+
+            </div>
+
         </div>
 
     </div>
 
 </section>
 
-<section id="edits" class="fade">
+<section id="edits">
 
-    <h2>Featured Edits</h2>
+    <div class="container">
 
-    <div class="edit-grid">
+        <span class="section-label">FEATURED</span>
 
-        <div class="edit-card">
-            <img src="images/edit1.png" alt="Edit 1" loading="lazy">
-            <a href="https://vt.tiktok.com/ZSX1SpQ3f/" target="_blank">Watch Edit</a>
-        </div>
+        <h2>Featured Edits</h2>
 
-        <div class="edit-card">
-           <img src="images/edit2.png" alt="KEDYTS Edit 2" loading="lazy">
-            <a href="https://vt.tiktok.com/ZSX1SXGWv/" target="_blank">Watch Edit</a>
-        </div>
+        <div class="edit-grid">
 
-        <div class="edit-card">
-            <img src="images/edit3.png" alt="KEDYTS Edit 3" loading="lazy">
-            <a href="https://vt.tiktok.com/ZSX1SVq16/" target="_blank">Watch Edit</a>
+            <article class="edit-card">
+
+                <a href="https://www.tiktok.com/@kedyts" target="_blank">
+
+                    <img src="images/edit1.png" alt="Edit One">
+
+                    <div class="overlay">
+
+                        <i class="fa-solid fa-play"></i>
+
+                    </div>
+
+                </a>
+
+                <a href="https://www.tiktok.com/@kedyts"
+                   class="watch-btn"
+                   target="_blank">
+
+                    Watch Edit
+
+                </a>
+
+            </article>
+
+            <article class="edit-card">
+
+                <a href="https://www.tiktok.com/@kedyts" target="_blank">
+
+                    <img src="images/edit2.png" alt="Edit Two">
+
+                    <div class="overlay">
+
+                        <i class="fa-solid fa-play"></i>
+
+                    </div>
+
+                </a>
+
+                <a href="https://www.tiktok.com/@kedyts"
+                   class="watch-btn"
+                   target="_blank">
+
+                    Watch Edit
+
+                </a>
+
+            </article>
+
+            <article class="edit-card">
+
+                <a href="https://www.tiktok.com/@kedyts" target="_blank">
+
+                    <img src="images/edit3.png" alt="Edit Three">
+
+                    <div class="overlay">
+
+                        <i class="fa-solid fa-play"></i>
+
+                    </div>
+
+                </a>
+
+                <a href="https://www.tiktok.com/@kedyts"
+                   class="watch-btn"
+                   target="_blank">
+
+                    Watch Edit
+
+                </a>
+
+            </article>
+
         </div>
 
     </div>
 
 </section>
 
-<section id="socials" class="fade">
+<section id="socials">
 
-    <h2>Follow KEDYTS</h2>
+    <div class="container">
 
-    <p>Stay connected and see more edits.</p>
+        <span class="section-label">CONNECT</span>
 
-    <div class="social-buttons">
-        <a href="https://vt.tiktok.com/ZSX1DEQaK/" target="_blank">TikTok</a>
-        <a href="https://www.instagram.com/kedyts?igsh=Zmpob2hlM2dyYXIy&utm_source=qr" target="_blank">Instagram</a>
+        <h2>Follow KEDYTS</h2>
+
+        <p>
+            Follow for more creative edits and behind-the-scenes content.
+        </p>
+
+        <div class="social-links">
+
+            <a href="https://www.tiktok.com/@kedyts" target="_blank">
+
+                <i class="fa-brands fa-tiktok"></i>
+
+            </a>
+
+            <a href="https://www.instagram.com/kedyts" target="_blank">
+
+                <i class="fa-brands fa-instagram"></i>
+
+            </a>
+
+        </div>
+
     </div>
 
 </section>
 
 <footer>
 
-    <h3>KEDYTS</h3>
+    <div class="container">
 
-    <p>Creative edits. Endless ideas.</p>
+        <h2>KEDYTS</h2>
 
-    <p>© 2026 KEDYTS. All rights reserved.</p>
+        <p class="footer-tagline">
+
+            Ideas Over Hours.
+
+        </p>
+
+        <p class="copyright">
+
+            © 2026 KEDYTS. All rights reserved.
+
+        </p>
+
+    </div>
 
 </footer>
+
+<button id="topBtn">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
 
 <script src="script.js"></script>
 
