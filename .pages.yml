@@ -3,28 +3,28 @@ media:
   output: /assets
 
 content:
-  - name: website
-    label: Website
+  - name: site
+    label: Site Settings
     type: file
-    path: index.html
-
-  - name: images
-    label: Photos
-    type: collection
-    path: assets/images
-    filename: "{primary}.md"
+    path: content/site.json
     fields:
-      - name: primary
-        label: Name
+      - name: name
+        label: Site Name
         type: string
-      - name: image
-        label: Photo
-        type: image
+      - name: tagline
+        label: Tagline
+        type: string
+      - name: about
+        label: About
+        type: text
+      - name: email
+        label: Email
+        type: string
 
-  - name: videos
-    label: Videos
+  - name: edits
+    label: Edits
     type: collection
-    path: assets/videos
+    path: content/edits
     filename: "{primary}.md"
     fields:
       - name: primary
@@ -33,3 +33,25 @@ content:
       - name: video
         label: Video
         type: file
+      - name: cover
+        label: Cover Image
+        type: image
+      - name: description
+        label: Description
+        type: text
+
+  - name: gallery
+    label: Gallery
+    type: collection
+    path: content/gallery
+    filename: "{primary}.md"
+    fields:
+      - name: primary
+        label: Title
+        type: string
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: text
