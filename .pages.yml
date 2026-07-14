@@ -1,0 +1,9 @@
+media:
+  input: assets
+  output: /assets
+
+content:
+  - name: website
+    label: Website Content
+    type: file
+    path: index.html
