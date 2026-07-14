@@ -181,3 +181,18 @@ counters.forEach(counter=>{
 counterObserver.observe(counter);
 
 });
+// Load website information
+fetch("content/site.json")
+  .then(response => response.json())
+  .then(site => {
+    console.log("Website data loaded:", site);
+
+    document.title = site.name + " | Creative Editor";
+
+    const heroTitle = document.querySelector(".hero h1");
+    if (heroTitle) heroTitle.textContent = site.name;
+
+    const heroSubtitle = document.querySelector(".hero p");
+    if (heroSubtitle) heroSubtitle.textContent = site.tagline;
+  })
+  .catch(error => console.error("Couldn't load site.json:", error));
