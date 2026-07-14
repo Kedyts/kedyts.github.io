@@ -1,1 +1,19 @@
-
+{
+  "name": "KEDYTS",
+  "tagline": "Ideas Over Hours.",
+  "about": "Creative editor from Kenya creating concept-driven short-form content. Every edit begins with an idea because creativity is what people remember.",
+  "email": "contact@kedyts.com",
+  "phone": "",
+  "socials": {
+    "tiktok": "https://tiktok.com/@kedyts",
+    "instagram": "https://instagram.com/kedyts",
+    "youtube": "https://youtube.com/@kedyts",
+    "behance": "",
+    "linkedin": ""
+  },
+  "stats": {
+    "followers": "200K+",
+    "views": "90M+",
+    "edits": "500+"
+  }
+}
